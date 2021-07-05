@@ -7,5 +7,12 @@ public class MainStack {
         myStack.push(30);
         myStack.push(56);
         myStack.print();
+        MyStack myStack1 = new MyStack();
+        myStack1.push(70);
+        myStack1.push(30);
+        myStack1.push(56);
+        myStack1.pop();
+        myStack1.print();
+        myStack1.peek();
     }
 }
