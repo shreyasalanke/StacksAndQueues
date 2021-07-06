@@ -18,6 +18,13 @@ public class MyQueue {
 		}
 		
 	}
-	
+	public int deQueue () 
+	{
+		MyNode tempNode = head;
+		head =head.getNext();
+		return tempNode.getData();
+	}
 }
+	
+
 
